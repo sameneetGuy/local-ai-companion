@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# --- Virtual env ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs / runtime artifacts ---
+*.log
+
+# --- Models / large assets (keep folder, not files) ---
+voices/*.onnx
+voices/*.json
+voices/**/*.onnx
+voices/**/*.json

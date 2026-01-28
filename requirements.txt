@@ -1,0 +1,22 @@
+numpy
+requests
+soundfile
+
+# Audio I/O (cross-platform via PortAudio)
+sounddevice
+
+# Wake word + runtime
+onnxruntime
+openwakeword
+
+# VAD + ASR
+webrtcvad
+faster-whisper
+tokenizers
+
+# TTS
+piper-tts
+
+# PTT hotkey backend
+keyboard; platform_system == "Windows"
+pynput; platform_system != "Windows"
