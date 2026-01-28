@@ -128,6 +128,7 @@ Each component is distributed under its own license:
 - **Ollama** – local LLM runtime  
 - **Piper** – text-to-speech engine  
 - **ONNX Runtime** – model inference runtime  
+See [here](./THIRD_PARTY_LICENSES.md) for details.
 
 This repository contains **only original source code** for the companion logic.
 
